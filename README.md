@@ -13,6 +13,7 @@ As someone who occasionally loses track of time scrolling funny videos or lookin
 
 On top of everything else, knowing that my extension will likely be used by those with disabilities or additional accomodations, I tried to keep my extension as accessabile as possible. Utilizing the POUR guidlines and even chatted with a good handful of people in these categories to ensure its usability and understandability.
 
+# [Bubble Project](https://github.com/nmazda/BubbleProject)
 
 # [Keep Scrolling](https://github.com/Lliam-Rankins/keep_scrolling)
 Web browser extension utilizing JavaScript to relocate Youtube video comments, description, and recomended videos all to a scrollable side bar next to the video.
