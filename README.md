@@ -5,8 +5,12 @@ Professional portfolio, housing both academic and personal projects
 # [Tranquil Tabs](https://github.com/Lliam-Rankins/TranquilTabs)
 Web browser extension using JavaScript and Chrome's storage API to implement a url group based approach to helping users limit their online screen time or boost productivity and focus.
 
+![Group Settings Page](https://github.com/Lliam-Rankins/Portfolio/blob/main/Group%20Settings.png)
+
 ## How it Works
 The user can create a group with a collection of regex matching urls, and specify information such as how many times they can open it, how long they can open it for, and optionally how long they have to wait to open it. This extension also supports scheduling of restrictions, for example, restricting access to social media sites during work hours.
+
+![Blocked Page](blocked.png)
 
 ## Design Reasoning
 As someone who occasionally loses track of time scrolling funny videos or looking at friends posts, I wanted an extension that would help me take back active control of my screen usage and even cut me off if needed. As such, Tranquil Tabs was born.
@@ -14,9 +18,18 @@ As someone who occasionally loses track of time scrolling funny videos or lookin
 On top of everything else, knowing that my extension will likely be used by those with disabilities or additional accomodations, I tried to keep my extension as accessabile as possible. Utilizing the POUR guidlines and even chatted with a good handful of people in these categories to ensure its usability and understandability.
 
 # [Bubble Project](https://github.com/Lliam-Rankins/Bubble_Project)
+Year long research project that utilized an Auto-Encoder and statistical anaylsis to translate generated images from a nuclear powerplant simulation into realistic data for training a later, and much larger, ANN model.
+
+## Design Reasoning
+Due to the nuclear plant's ANN needing extensive data, they decided to make use of a bubble column simulation they already had that generated realistic bubbles given different opperating parameters. We were responsible for creating a pipeline between the simulation into realistic, and labled data sets for training the model from these simulations.
+
+## How it Works
+Constructed using the TensorFlow package and a hand made Auto-Encoder structure the model was trained on a extreemly small subset of images(~200) to get an optimal output. Many data modification practicies were used to expand the data such as mirroring and cutting the images into smaller sub images.
 
 # [Keep Scrolling](https://github.com/Lliam-Rankins/keep_scrolling)
 Web browser extension utilizing JavaScript to relocate Youtube video comments, description, and recomended videos all to a scrollable side bar next to the video.
+
+![Keep Scrolling](KeepScrolling.png)
 
 ## Design Reasoning
 This extension was design as a quick solution to a small problem. Often times when watching a Youtube video users like to read through the comments and see what others thought. However this moves the video out of sight, meaning you might miss something important. As such I felt simply moving the comments, as well as recomended videos, to a scrollable side bar would be beneficial and ensure nobody missed another second of their Youtube video again.
@@ -33,6 +46,8 @@ This project was focused on expanding our skill sets, and giving us practice in 
 
 # [DocsToRenPy](https://github.com/Lliam-Rankins/DocsToRenPy)
 Personal addition to a senior design project that utilizing Regex matching to translate a markdown file into game code for a popular visual novel game engine.
+
+![RenPy](JusticeWellPlayedImage.png)
 
 ## Design Reasoning
 My team's senior design project was create a visual novel game about the united states legal system based off of our sponsors requirments. This series had multiple installments prior that were unpolished, buggy, and inaccessable. As such we decided to move away from the design platform they had used, Unity and a depreciated package Fungus, in lue of RenPy.
